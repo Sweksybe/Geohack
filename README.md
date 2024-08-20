@@ -1,0 +1,2 @@
+# Geohack
+Geoguessr solver
