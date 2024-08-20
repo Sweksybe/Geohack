@@ -8,7 +8,9 @@ from selenium.webdriver.chrome.options import Options
 from seleniumwire import webdriver
 from seleniumwire.utils import decode as sw_decode
 
-subprocess.Popen(['python', 'C:\\Users\\Gebruiker\\Documents\\python scripts\\geohack\\openchrome.py'])
+#change the openchrome path
+
+subprocess.Popen(['python', 'path_to_openchrome.py'])
 
 chrome_options = Options()
 chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9123")
